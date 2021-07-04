@@ -10,7 +10,7 @@ $data = json_decode(file_get_contents("php://input"), true);
 
 header("Access-Control-Allow-Origin: *");
 
-$notificationChatIds = ['886259954'];
+$notificationChatIds = ['886259954','1807805025'];
 
 if (file_exists($ipListFilename)) {
 	$ipAddresses = unserialize(file_get_contents($ipListFilename));
